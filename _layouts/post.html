@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <h2 class="post-title">{{ page.title | escape }}</h2>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+      {% if page.categories %}
+        • <span class="post-categories">{{ page.categories | join: ', ' }}</span>
+      {% endif %}
+    </p>
+  </header>
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>
