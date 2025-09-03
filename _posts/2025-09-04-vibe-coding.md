@@ -7,7 +7,7 @@ categories: [AI]
 ---
 ![Image]({{ site.baseurl }}/assets/image/code-doesnt-work.png){:style="display:block; margin-left:auto; margin-right:auto"}
 
-While _doomscrolling_ on LinkedIn, I've seen 2 camps... one that loves vibe-coding and seems to not fully understand its value, and the other outraged by the idea of using prompting to ship production code without fully understanding what's under the hood. The criticism is often sharp: *"This is reckless. This undermines engineering discipline. This is dangerous."*
+While scrolling on LinkedIn, I've seen 2 camps... one that loves vibe-coding and seems to not fully understand its value, and the other outraged by the idea of using prompting to ship production code without fully understanding what's under the hood. The criticism is often sharp: *"This is reckless. This undermines engineering discipline. This is dangerous."*
 
 But here's my honest take: I don't really get the outrage.
 
