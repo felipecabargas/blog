@@ -230,8 +230,8 @@ a:focus {
   top: 1rem;
   right: 1rem;
   z-index: 200;
-  background: #004995;
-  color: #fff;
+  background: transparent;
+  color: black;
   border: none;
   border-radius: 4px;
   padding: 0.5em 1em;
