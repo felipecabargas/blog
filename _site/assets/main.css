@@ -193,6 +193,7 @@ a:focus {
   max-width: 60em;
   margin: 0 auto;
   padding: 1rem;
+  padding-bottom: 10vh; /* Ensure content isn't hidden behind footer */
 }
 
 .post-header {
@@ -211,6 +212,7 @@ a:focus {
 }
 /* Sticky footer */
 .sticky-footer {
+  height: 8vh;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -219,14 +221,12 @@ a:focus {
   border-top: 1px solid #e0e0e0;
   text-align: center;
   transition: background 0.2s, border-color 0.2s;
-  padding: 1rem 0;
   z-index: 100;
-}
 }
 
 /* Theme toggle button */
 .theme-toggle {
-  position: fixed;
+  position: absolute;
   top: 1rem;
   right: 1rem;
   z-index: 200;
@@ -253,4 +253,23 @@ img {
   max-height: 500px;
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 900px) {
+  .main-content {
+    padding: 0.5rem;
+    padding-bottom: 20vh; /* Ensure content isn't hidden behind footer */
+  }
+  .post-title {
+    font-size: 1.5rem;
+  }
+  .site-navigation ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .sticky-footer {
+    height: auto;
+    padding: 0.5rem 0;
+  }
 }
