@@ -2,7 +2,7 @@
 layout: post
 title: "The hate on vibe-coding, and why I think is an overreaction "
 description: "Why AI-driven 'vibe-coding' isn't the threat people think it is—and how leaders should really approach it."
-date: 2025-09-02 10:00:00 +0200
+date: 2025-09-04 10:00:00 +0200
 categories: [AI]
 ---
 ![Image]({{ site.baseurl }}/assets/image/code-doesnt-work.png){:style="display:block; margin-left:auto; margin-right:auto"}
