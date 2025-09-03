@@ -1,8 +1,8 @@
-title: "Thought Leadership Blog"
+title: "From the Desk of Felipe Cabargas"
 email: ""
 description: "A personal blog sharing insights on artificial intelligence, strategic thinking and product management."
 # The base URL ensures that relative links work whether the site is hosted at the root or a sub‑directory.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 markdown: kramdown
 # Disable any external theme; we provide our own layouts and styles.

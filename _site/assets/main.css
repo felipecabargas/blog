@@ -1,3 +1,35 @@
+/* Breadcrumbs styles */
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 1rem;
+  margin-bottom: 1.5em;
+  padding: 0.5em 1em;
+  background: #eaf3ff;
+  border-radius: 6px;
+  color: #004995;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.breadcrumbs a {
+  color: #004995;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.breadcrumbs span {
+  color: #222;
+  font-weight: 500;
+}
+.dark-mode .breadcrumbs {
+  background: #222326;
+  color: #7abaff;
+}
+.dark-mode .breadcrumbs a {
+  color: #7abaff;
+}
+.dark-mode .breadcrumbs span {
+  color: #f3f3f3;
+}
 /*
   main.css
 
@@ -8,6 +40,7 @@
 */
 
 /* Base styles */
+
 html {
   box-sizing: border-box;
 }
@@ -24,6 +57,66 @@ body {
   line-height: 1.6;
   background-color: #ffffff;
   color: #000000;
+  transition: background 0.2s, color 0.2s;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #181a1b;
+    color: #f3f3f3;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #f3f3f3;
+  }
+  .site-header, .site-footer {
+    background: #222326;
+    border-color: #333;
+  }
+  a {
+    color: #7abaff;
+  }
+  .skip-link {
+    background: #222326;
+    color: #f3f3f3;
+  }
+}
+
+body.dark-mode {
+  background-color: #181a1b;
+  color: #f3f3f3;
+}
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4, body.dark-mode h5, body.dark-mode h6 {
+  color: #f3f3f3;
+}
+body.dark-mode .site-header, body.dark-mode .site-footer {
+  background: #222326;
+  border-color: #333;
+}
+body.dark-mode a {
+  color: #7abaff;
+}
+body.dark-mode .skip-link {
+  background: #222326;
+  color: #f3f3f3;
+}
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+body.light-mode h1, body.light-mode h2, body.light-mode h3, body.light-mode h4, body.light-mode h5, body.light-mode h6 {
+  color: #000000;
+}
+body.light-mode .site-header, body.light-mode .site-footer {
+  background: #f9f9f9;
+  border-color: #e0e0e0;
+}
+body.light-mode a {
+  color: #004995;
+}
+body.light-mode .skip-link {
+  background: #004995;
+  color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -68,6 +161,7 @@ a:focus {
   padding: 1rem;
   background: #f9f9f9;
   border-bottom: 1px solid #e0e0e0;
+  transition: background 0.2s, border-color 0.2s;
 }
 
 .site-title {
@@ -115,13 +209,48 @@ a:focus {
 .post-content p {
   margin-bottom: 1rem;
 }
-.site-footer {
+/* Sticky footer */
+.sticky-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background: #f9f9f9;
   border-top: 1px solid #e0e0e0;
   text-align: center;
+  transition: background 0.2s, border-color 0.2s;
+  padding: 1rem 0;
+  z-index: 100;
+}
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 200;
+  background: #004995;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.theme-toggle:focus {
+  outline: 2px solid #4d90fe;
+  outline-offset: 2px;
+}
+body.dark-mode .theme-toggle {
+  background: #222326;
+  color: #f3f3f3;
 }
 /* Ensure images scale down and include alt attributes via HTML */
 img {
+  max-height: 500px;
   max-width: 100%;
   height: auto;
 }

@@ -1,58 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-03T17:03:59+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Thought Leadership Blog</title><subtitle>A personal blog sharing insights on artificial intelligence, strategic thinking and product management.</subtitle><entry><title type="html">Product Management Essentials</title><link href="http://localhost:4000/product%20management/2025/09/03/product-management/" rel="alternate" type="text/html" title="Product Management Essentials" /><published>2025-09-03T12:00:00+02:00</published><updated>2025-09-03T12:00:00+02:00</updated><id>http://localhost:4000/product%20management/2025/09/03/product-management</id><content type="html" xml:base="http://localhost:4000/product%20management/2025/09/03/product-management/"><![CDATA[<p>Product management sits at the crossroads of customer needs, technical feasibility and business viability. Here are some timeless principles I’ve learned:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2025-09-04T01:19:44+02:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">From the Desk of Felipe Cabargas</title><subtitle>A personal blog sharing insights on artificial intelligence, strategic thinking and product management.</subtitle><entry><title type="html">The hate on vibe-coding, and why I think is an overreaction</title><link href="http://localhost:4000/blog/ai/2025/09/02/vibe-coding/" rel="alternate" type="text/html" title="The hate on vibe-coding, and why I think is an overreaction" /><published>2025-09-02T10:00:00+02:00</published><updated>2025-09-02T10:00:00+02:00</updated><id>http://localhost:4000/blog/ai/2025/09/02/vibe-coding</id><content type="html" xml:base="http://localhost:4000/blog/ai/2025/09/02/vibe-coding/"><![CDATA[<p><img src="/blog/assets/image/code-doesnt-work.png" alt="Image" style="display:block; margin-left:auto; margin-right:auto" /></p>
+
+<p>While <em>doomscrolling</em> on LinkedIn, I’ve seen 2 camps… one that loves vibe-coding and seems to not fully understand its value, and the other outraged by the idea of using prompting to ship production code without fully understanding what’s under the hood. The criticism is often sharp: <em>“This is reckless. This undermines engineering discipline. This is dangerous.”</em></p>
+
+<p>But here’s my honest take: I don’t really get the outrage.</p>
+
+<p>Haven’t we been putting MVPs into production for decades? Shipping fast, testing in real environments, fixing later? It’s always been a <strong>tradeoff between speed, cost, and quality</strong> (or what my mentor Thomas and I call “the <em>good enough</em> line”). The only difference now is that AI has made the shortcut faster and a lot more visible.</p>
+
+<p>But let’s go back to the pre-AI days… When I first moved into full-time development, Stack Overflow was the average developer’s lifeline. We were shipping features with snippets copied from strangers, patched into codebases we didn’t fully understand. And yet, things moved forward. Some projects thrived, some crashed. Can we blame the code? Or the coder?</p>
+
+<p>Nobody called it “vibe-coding” back then. We just called it <em>agile</em> . This idea of failing fast was widely supported, and if you were not trying stuff quickly, you were left out.</p>
+
+<p>So I struggle with the framing that AI has suddenly created a dangerous new behavior. In reality, <strong>bad code has always existed</strong>, and it has never been the fault of the tool.</p>
+
+<p>To me, this hate on vibe-coding and vibe-coders is just arising from developers that are either insecure of their future (and rightly so, don’t get me wrong… the market is cold and the tech is moving fast) or outright against AI (this I do believe to be a problem).</p>
+
+<p>So, here’s my take on what has actually changed: AI is exposing the fundamentals gap.</p>
 
 <ul>
-  <li>
-    <p><strong>Start with the problem.</strong> Always ground your work in a real user need. Avoid falling in love with a solution before validating that the problem exists and is worth solving.</p>
-  </li>
-  <li>
-    <p><strong>Prioritise ruthlessly.</strong> There will never be enough time or resources to build everything. Use frameworks like RICE (Reach, Impact, Confidence, Effort) or MoSCoW (Must, Should, Could, Won’t) to guide trade‑offs.</p>
-  </li>
-  <li>
-    <p><strong>Ship iteratively.</strong> Embrace a mindset of continuous delivery. Small, frequent releases allow you to gather feedback early and often, reducing risk and enabling course corrections.</p>
-  </li>
-  <li>
-    <p><strong>Communicate clearly.</strong> Effective product managers are great storytellers and translators. Keep stakeholders aligned by sharing progress, challenges and context regularly.</p>
-  </li>
+  <li>Developers who understand their stack use AI to remove grunt work and accelerate delivery. <strong>BAD</strong></li>
+  <li>Developers who don’t understand their stack now ship broken code faster. <strong>BAD</strong></li>
+  <li>Developers who understand their stack, and use AI effectively, can get the boring stuff out of the way quickly and innovate. <strong>GOOD</strong></li>
 </ul>
 
-<p>Over the coming months I’ll share case studies and practical tools that have helped me in my own product journey. Stay tuned!</p>]]></content><author><name></name></author><category term="Product Management" /><summary type="html"><![CDATA[Fundamental principles for building products users love.]]></summary></entry><entry><title type="html">Strategy Frameworks for Uncertain Times</title><link href="http://localhost:4000/strategy/2025/09/03/strategy-frameworks/" rel="alternate" type="text/html" title="Strategy Frameworks for Uncertain Times" /><published>2025-09-03T11:00:00+02:00</published><updated>2025-09-03T11:00:00+02:00</updated><id>http://localhost:4000/strategy/2025/09/03/strategy-frameworks</id><content type="html" xml:base="http://localhost:4000/strategy/2025/09/03/strategy-frameworks/"><![CDATA[<p>Great strategy isn’t just about setting a destination – it’s about choosing how you’ll get there when the path is uncertain. Here are a few frameworks I frequently use:</p>
+<p>That visibility is uncomfortable, but it’s not a reason to panic. It’s a reason to <strong>double down on fundamentals and ownership</strong>.</p>
 
-<h3 id="ooda-loop">OODA Loop</h3>
-
-<p>Originally developed for fighter pilots, the Observe–Orient–Decide–Act loop encourages continuous situational awareness and rapid iteration. In business contexts it reminds us to ground decisions in real‑time feedback rather than rigid plans.</p>
-
-<h3 id="wardley-maps">Wardley Maps</h3>
-
-<p>Wardley Mapping visualises the evolution of components in a value chain against market maturity. This helps teams understand where to invest in innovation versus commoditise. Drawing your own map can reveal surprising insights about your competitive landscape.</p>
-
-<h3 id="three-horizons-model">Three Horizons Model</h3>
-
-<p>This framework separates initiatives into three horizons: core activities (H1), growth opportunities (H2) and future bets (H3). Balancing investment across these horizons allows organisations to sustain the present while building for the future.</p>
-
-<p>These tools are complementary and no single framework fits every situation. The key is to experiment and adapt them to your context, and to revisit your strategy regularly as conditions change.</p>]]></content><author><name></name></author><category term="Strategy" /><summary type="html"><![CDATA[How to think about planning and resource allocation when the future is unclear.]]></summary></entry><entry><title type="html">AI Trends to Watch in 2025</title><link href="http://localhost:4000/ai/2025/09/03/ai-trends/" rel="alternate" type="text/html" title="AI Trends to Watch in 2025" /><published>2025-09-03T10:00:00+02:00</published><updated>2025-09-03T10:00:00+02:00</updated><id>http://localhost:4000/ai/2025/09/03/ai-trends</id><content type="html" xml:base="http://localhost:4000/ai/2025/09/03/ai-trends/"><![CDATA[<p>Artificial intelligence continues to evolve at a rapid pace. Here are a few themes I’m watching closely as we head into 2025:</p>
-
-<ol>
-  <li>
-    <p><strong>Responsible AI becomes mainstream.</strong> Organisations are moving beyond AI ethics pledges and beginning to bake principles like fairness, accountability and transparency into their development workflows. Expect more open‑source toolkits and regulatory guidance to support these efforts.</p>
-  </li>
-  <li>
-    <p><strong>Edge computing meets machine learning.</strong> With advances in model compression and specialised hardware, we’re seeing more powerful models running on devices at the edge. This reduces latency and preserves privacy by keeping data local.</p>
-  </li>
-  <li>
-    <p><strong>Foundation models and fine‑tuning.</strong> Large foundation models (like language and vision transformers) are enabling rapid prototyping through fine‑tuning. Businesses that can quickly adapt these models for domain‑specific tasks will gain a competitive edge.</p>
-  </li>
-</ol>
-
-<p>The field is broad, but focusing on these trends will help you stay ahead of the curve. In future posts I’ll dive deeper into each of these areas and share practical tips for product teams.</p>]]></content><author><name></name></author><category term="AI" /><summary type="html"><![CDATA[Key developments shaping the artificial intelligence landscape.]]></summary></entry><entry><title type="html">Welcome to the Thought Leadership Blog</title><link href="http://localhost:4000/general/2025/09/03/introduction/" rel="alternate" type="text/html" title="Welcome to the Thought Leadership Blog" /><published>2025-09-03T09:00:00+02:00</published><updated>2025-09-03T09:00:00+02:00</updated><id>http://localhost:4000/general/2025/09/03/introduction</id><content type="html" xml:base="http://localhost:4000/general/2025/09/03/introduction/"><![CDATA[<p>Welcome to my new blog! Over the coming weeks and months I’ll be exploring topics that sit at the intersection of technology, business strategy and product development.</p>
-
-<p>I’ve started this platform because I believe there’s tremendous value in sharing knowledge openly. Whether you’re a seasoned practitioner or just starting out in one of these fields, I hope the ideas and resources here will help you think differently about your work.</p>
-
-<p>In particular, you can expect posts about:</p>
+<p>For organization leadership, this isn’t a binary question of whether vibe-coding is “acceptable”. The questions should be:</p>
 
 <ul>
-  <li><strong>Artificial intelligence</strong> – practical insights into how AI is being applied today and what’s on the horizon.</li>
-  <li><strong>Strategy</strong> – frameworks and mental models to help make smarter decisions in uncertain environments.</li>
-  <li><strong>Product management</strong> – hands‑on techniques for building and iterating products that truly solve user problems.</li>
+  <li>Where does AI-driven coding make sense in our organization?</li>
+  <li>How do we set up <strong>guardrails</strong> (reviews, testing, pipelines) so speed doesn’t turn into long-term technical debt?</li>
+  <li>And how do we keep investing in fundamentals, so teams know when AI is helping versus when it’s misleading?</li>
 </ul>
 
-<p>Everything published here will strive to be accessible to readers using assistive technologies. If you spot something that could be improved from an accessibility perspective, please don’t hesitate to reach out.</p>]]></content><author><name></name></author><category term="General" /><summary type="html"><![CDATA[An introduction to this blog and what you can expect.]]></summary></entry></feed>
+<p>This isn’t about hype. It’s about governance, enablement, and strategic use of tools.</p>
+
+<h2 id="tldr">tl;dr</h2>
+
+<p>Bad production apps aren’t the result of vibe-coding. They’re the result of <strong>bad vibe coders</strong>… just as bad production apps 10, 20, or 30 years ago weren’t because of Stack Overflow, or frameworks, or compilers.</p>
+
+<p>AI isn’t replacing fundamentals. It’s making the gaps visible. And in the right hands, that visibility isn’t a threat: it’s a competitive advantage.</p>]]></content><author><name></name></author><category term="AI" /><summary type="html"><![CDATA[Why AI-driven 'vibe-coding' isn't the threat people think it is—and how leaders should really approach it.]]></summary></entry></feed>
