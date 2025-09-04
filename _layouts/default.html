@@ -7,6 +7,7 @@
     <title>{{ page.title | escape }} — {{ site.title | escape }}</title>
     <meta name="description" content="{{ page.description | default: site.description | escape }}" />
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+    {% include favicon-head.html %}
   </head>
   <body>
       <header role="banner" class="site-header" style="display: flex; align-items: center; justify-content: space-between;">
