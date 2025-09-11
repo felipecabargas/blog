@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2025-09-04T02:11:53+02:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">From the Desk of Felipe Cabargas</title><subtitle>A personal blog sharing insights on artificial intelligence, strategic thinking and product management.</subtitle><entry><title type="html">The hate on vibe-coding, and why I think is an overreaction</title><link href="http://localhost:4000/blog/ai/2025/09/03/vibe-coding/" rel="alternate" type="text/html" title="The hate on vibe-coding, and why I think is an overreaction" /><published>2025-09-03T10:00:00+02:00</published><updated>2025-09-03T10:00:00+02:00</updated><id>http://localhost:4000/blog/ai/2025/09/03/vibe-coding</id><content type="html" xml:base="http://localhost:4000/blog/ai/2025/09/03/vibe-coding/"><![CDATA[<p><img src="/blog/assets/image/code-doesnt-work.png" alt="Image" style="display:block; margin-left:auto; margin-right:auto" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2025-09-11T10:35:28+02:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">From the Desk of Felipe Cabargas</title><subtitle>A personal blog sharing insights on artificial intelligence, strategic thinking and product management.</subtitle><entry><title type="html">Is’s 2007 all over again: Feature-SaaS vs. Smart-SaaS</title><link href="http://localhost:4000/blog/ai/saas/strategy/2025/09/11/feature-and-smart-saas/" rel="alternate" type="text/html" title="Is’s 2007 all over again: Feature-SaaS vs. Smart-SaaS" /><published>2025-09-11T00:00:00+02:00</published><updated>2025-09-11T00:00:00+02:00</updated><id>http://localhost:4000/blog/ai/saas/strategy/2025/09/11/feature-and-smart-saas</id><content type="html" xml:base="http://localhost:4000/blog/ai/saas/strategy/2025/09/11/feature-and-smart-saas/"><![CDATA[<p><img src="/blog/assets/image/feature-phones.jpg" alt="Image" style="display:block; margin-left:auto; margin-right:auto" /></p>
+
+<p>When we look back at the smartphone revolution, the failure of the feature phone industry isn’t that they lacked innovation. They were innovating constantly… adding VGA cameras, better keyboards, music players, even internet access.</p>
+
+<p>But those improvements were all <em>features</em> stacked on top of the same mental model: a phone with extra tools. The leap came when Apple and Google reframed the device entirely: not a phone with features, but a <strong>computer in your pocket</strong>. That shift to a new paradigm (an app ecosystem, cloud connectivity, touch-first design) made feature phones obsolete almost overnight.</p>
+
+<p>SaaS is at the same crossroads.</p>
+
+<p><strong>Feature-SaaS</strong> is what most of us are still building: dashboards with incremental add-ons. Maybe you’ve got an “AI assistant” button here, an auto-generated summary there. It’s useful, sure, but the underlying product is the same.</p>
+
+<p><strong>Smart-SaaS</strong>, on the other hand, is what happens when AI stops being a feature and becomes the foundation. Workflows are designed around what AI can actually <em>do</em>. Interfaces become conversational, not form-based. Value is delivered in outcomes, not just analytics.</p>
+
+<p>And here’s the critical part: the companies that will win are the ones betting not on the <em>features</em> but on the <em>data</em>.</p>
+
+<p>Features can be copied. Data flywheels cannot. In the feature phone era, a better keyboard or camera was a temporary advantage; in the smartphone era, it was the app ecosystem and cloud integration (both powered by data) that made Apple and Google unbeatable.</p>
+
+<p>The same is true in SaaS today:</p>
+
+<ul>
+  <li><strong>Feature-SaaS</strong>: Ships more widgets, buttons, and AI “helpers” without changing the core product. Looks busy, but fragile.</li>
+  <li><strong>Smart-SaaS</strong>: Invests in capturing, structuring, and learning from customer data at scale. The AI doesn’t just <em>assist</em> but continuously <em>improves</em>.</li>
+</ul>
+
+<p>When you bet on features, you’re in an arms race that someone else can out-ship. When you bet on data, you’re building compounding advantage. Every interaction, every workflow, every outcome becomes fuel for making the product smarter, faster, and harder to displace.</p>
+
+<p>The real winners in this next wave won’t be those who tack on the most AI features, they’ll be the ones who reimagine their category around Smart-SaaS: AI-native, data-driven, outcome-oriented.</p>
+
+<p>The question is no longer <em>“how many AI features have we shipped?”</em>, it’s <em>“are we building a feature phone, or the smartphone of our industry?”</em></p>]]></content><author><name></name></author><category term="AI" /><category term="SaaS" /><category term="Strategy" /><summary type="html"><![CDATA[AI adoption in SaaS is echoing the shift from feature phones to smartphones.]]></summary></entry><entry><title type="html">The hate on vibe-coding, and why I think is an overreaction</title><link href="http://localhost:4000/blog/ai/2025/09/03/vibe-coding/" rel="alternate" type="text/html" title="The hate on vibe-coding, and why I think is an overreaction" /><published>2025-09-03T10:00:00+02:00</published><updated>2025-09-03T10:00:00+02:00</updated><id>http://localhost:4000/blog/ai/2025/09/03/vibe-coding</id><content type="html" xml:base="http://localhost:4000/blog/ai/2025/09/03/vibe-coding/"><![CDATA[<p><img src="/blog/assets/image/code-doesnt-work.png" alt="Image" style="display:block; margin-left:auto; margin-right:auto" /></p>
 
 <blockquote>
   <p><em>An anecdote: the first time I used this meme was in 2012 right after my robotics exam. I passed, but you can maybe guess if I really knew why.</em></p>
